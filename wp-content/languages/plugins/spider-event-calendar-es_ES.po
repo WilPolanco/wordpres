@@ -1,0 +1,393 @@
+# Translation of Plugins - Calendar by WD &#8211; Responsive Event Calendar - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Calendar by WD &#8211; Responsive Event Calendar - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-27 19:04:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Calendar by WD &#8211; Responsive Event Calendar - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "https://web-dorado.com/"
+msgstr "https://web-dorado.com/"
+
+#. Description of the plugin/theme
+msgid "Spider Event Calendar is a highly configurable product which allows you to have multiple organized events. Spider Event Calendar is an extraordinary user friendly extension."
+msgstr "Spider Event Calendar es un plugin muy configurable que te permite tener múltiples eventos organizados. Spider Event Calendar es una extensión extraordinaria fácil de usar para el usuario."
+
+#. Plugin URI of the plugin/theme
+msgid "https://web-dorado.com/products/wordpress-calendar.html"
+msgstr "https://web-dorado.com/products/wordpress-calendar.html"
+
+#. Plugin Name of the plugin/theme
+msgid "Spider Event Calendar"
+msgstr "Spider Event Calendar"
+
+#: notices.php:24
+msgid "Get Some Help"
+msgstr "Pedir algo de ayuda"
+
+#: notices.php:23
+msgid "Check out User Guide"
+msgstr "Consulta la guía del usuario"
+
+#: notices.php:22
+msgid "Thank you for using WordPress Spider Calendar! We hope that you've found everything you need, but if you have any questions:"
+msgstr "¡Gracias por usar WordPress Spider Calendar! Esperamos que hayas encontrado todo lo que necesitas, pero si tienes alguna pregunta:"
+
+#: notices.php:21
+msgid "Hey! How's It Going?"
+msgstr "¡Hey! ¿Cómo te va?"
+
+#: notices.php:14 notices.php:25
+msgid "Never show again"
+msgstr "No mostrar de nuevo"
+
+#: notices.php:13
+msgid "Maybe Later"
+msgstr "Tal vez más tarde"
+
+#: notices.php:12
+msgid "I've already left a review"
+msgstr "Ya he dejado una reseña"
+
+#: notices.php:11
+msgid "Sure! I'd love to!"
+msgstr "¡Por supuesto! ¡Me encantaría!"
+
+#: notices.php:10
+msgid "We hope you've enjoyed using WordPress Spider Calendar! Would you consider leaving us a review on WordPress.org?"
+msgstr "¡Esperamos que hayas disfrutado usando WordPress Spider Calendar! ¿Considerarías dejarnos una reseña en WordPress.org?"
+
+#: notices.php:9
+msgid "Leave A Review?"
+msgstr "¿Dejar un comentario?"
+
+#: functions_for_xml_and_ajax.php:675
+msgid "Back to event list"
+msgstr "Regreso a la lista de eventos"
+
+#: functions_for_xml_and_ajax.php:656
+msgid "There Is No Text For This Event"
+msgstr "No hay ningún texto para este evento"
+
+#: functions_for_xml_and_ajax.php:606
+msgid "Date"
+msgstr "Fecha"
+
+#: functions_for_xml_and_ajax.php:399 functions_for_xml_and_ajax.php:405
+#: functions_for_xml_and_ajax.php:637 functions_for_xml_and_ajax.php:640
+#: spidercalendar_upcoming_events_widget.php:884
+#: spidercalendar_upcoming_events_widget.php:890
+#: spidercalendar_upcoming_events_widget.php:958
+#: spidercalendar_upcoming_events_widget.php:964
+#: spidercalendar_upcoming_events_widget.php:1434
+#: spidercalendar_upcoming_events_widget.php:1440
+#: spidercalendar_upcoming_events_widget.php:1840
+#: spidercalendar_upcoming_events_widget.php:1845
+msgid "on the"
+msgstr "en la"
+
+#: functions_for_xml_and_ajax.php:399 functions_for_xml_and_ajax.php:405
+#: functions_for_xml_and_ajax.php:637 functions_for_xml_and_ajax.php:640
+#: spidercalendar_upcoming_events_widget.php:884
+#: spidercalendar_upcoming_events_widget.php:890
+#: spidercalendar_upcoming_events_widget.php:958
+#: spidercalendar_upcoming_events_widget.php:964
+#: spidercalendar_upcoming_events_widget.php:1434
+#: spidercalendar_upcoming_events_widget.php:1440
+#: spidercalendar_upcoming_events_widget.php:1840
+#: spidercalendar_upcoming_events_widget.php:1845
+msgid "Year(s) in"
+msgstr "Año (s) en"
+
+#: functions_for_xml_and_ajax.php:387 functions_for_xml_and_ajax.php:393
+#: functions_for_xml_and_ajax.php:631 functions_for_xml_and_ajax.php:634
+#: spidercalendar_upcoming_events_widget.php:874
+#: spidercalendar_upcoming_events_widget.php:878
+#: spidercalendar_upcoming_events_widget.php:946
+#: spidercalendar_upcoming_events_widget.php:952
+#: spidercalendar_upcoming_events_widget.php:1422
+#: spidercalendar_upcoming_events_widget.php:1428
+#: spidercalendar_upcoming_events_widget.php:1830
+#: spidercalendar_upcoming_events_widget.php:1835
+msgid "Month(s) on the"
+msgstr "Mes (s) en la"
+
+#: functions_for_xml_and_ajax.php:357 functions_for_xml_and_ajax.php:617
+#: spidercalendar_upcoming_events_widget.php:844
+#: spidercalendar_upcoming_events_widget.php:916
+#: spidercalendar_upcoming_events_widget.php:1392
+#: spidercalendar_upcoming_events_widget.php:1800
+msgid "Week(s) on"
+msgstr "Semana (s) en"
+
+#: functions_for_xml_and_ajax.php:349 functions_for_xml_and_ajax.php:357
+#: functions_for_xml_and_ajax.php:387 functions_for_xml_and_ajax.php:393
+#: functions_for_xml_and_ajax.php:399 functions_for_xml_and_ajax.php:405
+#: functions_for_xml_and_ajax.php:614 functions_for_xml_and_ajax.php:617
+#: functions_for_xml_and_ajax.php:631 functions_for_xml_and_ajax.php:634
+#: functions_for_xml_and_ajax.php:637 functions_for_xml_and_ajax.php:640
+#: spidercalendar_upcoming_events_widget.php:838
+#: spidercalendar_upcoming_events_widget.php:844
+#: spidercalendar_upcoming_events_widget.php:874
+#: spidercalendar_upcoming_events_widget.php:878
+#: spidercalendar_upcoming_events_widget.php:884
+#: spidercalendar_upcoming_events_widget.php:890
+#: spidercalendar_upcoming_events_widget.php:910
+#: spidercalendar_upcoming_events_widget.php:916
+#: spidercalendar_upcoming_events_widget.php:946
+#: spidercalendar_upcoming_events_widget.php:952
+#: spidercalendar_upcoming_events_widget.php:958
+#: spidercalendar_upcoming_events_widget.php:964
+#: spidercalendar_upcoming_events_widget.php:1386
+#: spidercalendar_upcoming_events_widget.php:1392
+#: spidercalendar_upcoming_events_widget.php:1422
+#: spidercalendar_upcoming_events_widget.php:1428
+#: spidercalendar_upcoming_events_widget.php:1434
+#: spidercalendar_upcoming_events_widget.php:1440
+#: spidercalendar_upcoming_events_widget.php:1794
+#: spidercalendar_upcoming_events_widget.php:1800
+#: spidercalendar_upcoming_events_widget.php:1830
+#: spidercalendar_upcoming_events_widget.php:1835
+#: spidercalendar_upcoming_events_widget.php:1840
+#: spidercalendar_upcoming_events_widget.php:1845
+msgid "Repeat Every"
+msgstr "repitiendo todos los %@"
+
+#: front_end/frontend_functions.php:1083
+#: spidercalendar_upcoming_events_widget.php:250
+msgid "Sunday"
+msgstr "Domingo"
+
+#: front_end/frontend_functions.php:1080
+#: spidercalendar_upcoming_events_widget.php:247
+msgid "Saturday"
+msgstr "Sábado"
+
+#: front_end/frontend_functions.php:1077
+#: spidercalendar_upcoming_events_widget.php:244
+msgid "Friday"
+msgstr "Viernes"
+
+#: front_end/frontend_functions.php:1074
+#: spidercalendar_upcoming_events_widget.php:241
+msgid "Thursday"
+msgstr "Jueves"
+
+#: front_end/frontend_functions.php:1071
+#: spidercalendar_upcoming_events_widget.php:238
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: front_end/frontend_functions.php:1068
+#: spidercalendar_upcoming_events_widget.php:235
+msgid "Tuesday"
+msgstr "Martes"
+
+#: front_end/frontend_functions.php:1065
+#: spidercalendar_upcoming_events_widget.php:232
+msgid "Monday"
+msgstr "Lunes"
+
+#: front_end/frontend_functions.php:1059
+#: spidercalendar_upcoming_events_widget.php:223
+msgid "Last"
+msgstr "Última"
+
+#: front_end/frontend_functions.php:1056
+#: spidercalendar_upcoming_events_widget.php:220
+msgid "Fourth"
+msgstr "Cuarto"
+
+#: front_end/frontend_functions.php:1053
+#: spidercalendar_upcoming_events_widget.php:217
+msgid "Third"
+msgstr "tercero"
+
+#: front_end/frontend_functions.php:1050
+#: spidercalendar_upcoming_events_widget.php:214
+msgid "Second"
+msgstr "Artículo SEGUND"
+
+#: front_end/frontend_functions.php:1047
+#: spidercalendar_upcoming_events_widget.php:211
+msgid "First"
+msgstr "Primero"
+
+#: front_end/bigcalendarmonth.php:824 front_end/bigcalendarmonth.php:884
+#: front_end/bigcalendarmonth.php:946 front_end/bigcalendarmonth.php:1009
+#: front_end/bigcalendarmonth.php:1068 front_end/bigcalendarmonth.php:1129
+#: spidercalendar_upcoming_events_widget.php:996
+#: spidercalendar_upcoming_events_widget.php:1471
+#: spidercalendar_upcoming_events_widget.php:1878
+msgid "See more"
+msgstr "Ver más"
+
+#: front_end/bigcalendarmonth.php:680 front_end/bigcalendarmonth_widget.php:449
+msgid "Sa"
+msgstr "Sá"
+
+#: front_end/bigcalendarmonth.php:677 front_end/bigcalendarmonth_widget.php:446
+msgid "Fr"
+msgstr "Vi"
+
+#: front_end/bigcalendarmonth.php:674 front_end/bigcalendarmonth_widget.php:443
+msgid "Th"
+msgstr "Ju"
+
+#: front_end/bigcalendarmonth.php:671 front_end/bigcalendarmonth_widget.php:440
+msgid "We"
+msgstr "Mi"
+
+#: front_end/bigcalendarmonth.php:668 front_end/bigcalendarmonth_widget.php:437
+msgid "Tu"
+msgstr "Ma"
+
+#: front_end/bigcalendarmonth.php:665 front_end/bigcalendarmonth_widget.php:434
+msgid "Mo"
+msgstr "Lu"
+
+#: front_end/bigcalendarmonth.php:661 front_end/bigcalendarmonth.php:684
+#: front_end/bigcalendarmonth_widget.php:430
+#: front_end/bigcalendarmonth_widget.php:453
+msgid "Su"
+msgstr "Do"
+
+#: front_end/bigcalendarlist.php:766 front_end/bigcalendarlist_widget.php:468
+msgid "There Is No Event In This Month"
+msgstr "No hay ningún evento en este mes"
+
+#: front_end/bigcalendarday.php:1023 front_end/bigcalendarday_widget.php:707
+#: front_end/bigcalendarlist.php:964 front_end/bigcalendarlist_widget.php:665
+#: front_end/bigcalendarmonth.php:1298
+#: front_end/bigcalendarmonth_widget.php:977 front_end/bigcalendarweek.php:1048
+#: front_end/bigcalendarweek_widget.php:739
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#: front_end/bigcalendarday.php:818 front_end/bigcalendarday_widget.php:508
+#: front_end/bigcalendarweek.php:908 front_end/bigcalendarweek_widget.php:602
+msgid "There Is No Event In This Day"
+msgstr "No hay ningún evento en este día"
+
+#: front_end/bigcalendarday.php:560 front_end/bigcalendarday_widget.php:387
+#: front_end/bigcalendarlist.php:540 front_end/bigcalendarlist_widget.php:363
+#: front_end/bigcalendarmonth.php:475 front_end/bigcalendarmonth_widget.php:358
+#: front_end/bigcalendarweek.php:584 front_end/bigcalendarweek_widget.php:392
+msgid "Month"
+msgstr "Mes"
+
+#: front_end/bigcalendarday.php:545 front_end/bigcalendarday_widget.php:372
+#: front_end/bigcalendarlist.php:525 front_end/bigcalendarlist_widget.php:348
+#: front_end/bigcalendarmonth.php:460 front_end/bigcalendarmonth_widget.php:344
+#: front_end/bigcalendarweek.php:569 front_end/bigcalendarweek_widget.php:377
+msgid "List"
+msgstr "Lista"
+
+#: front_end/bigcalendarday.php:530 front_end/bigcalendarday_widget.php:357
+#: front_end/bigcalendarlist.php:510 front_end/bigcalendarlist_widget.php:333
+#: front_end/bigcalendarmonth.php:445 front_end/bigcalendarmonth_widget.php:330
+#: front_end/bigcalendarweek.php:554 front_end/bigcalendarweek_widget.php:362
+msgid "Week"
+msgstr "Semana"
+
+#: front_end/bigcalendarday.php:514 front_end/bigcalendarday_widget.php:341
+#: front_end/bigcalendarlist.php:494 front_end/bigcalendarlist_widget.php:317
+#: front_end/bigcalendarmonth.php:429 front_end/bigcalendarmonth_widget.php:315
+#: front_end/bigcalendarweek.php:538 front_end/bigcalendarweek_widget.php:346
+#: functions_for_xml_and_ajax.php:349 functions_for_xml_and_ajax.php:614
+#: spidercalendar_upcoming_events_widget.php:838
+#: spidercalendar_upcoming_events_widget.php:910
+#: spidercalendar_upcoming_events_widget.php:1386
+#: spidercalendar_upcoming_events_widget.php:1794
+msgid "Day"
+msgstr "DÍA"
+
+#: front_end/bigcalendarday.php:175 front_end/bigcalendarday_widget.php:130
+#: front_end/bigcalendarlist.php:172 front_end/bigcalendarlist_widget.php:129
+#: front_end/bigcalendarmonth.php:169 front_end/bigcalendarmonth_widget.php:129
+#: front_end/bigcalendarweek.php:174 front_end/bigcalendarweek_widget.php:131
+msgid "December"
+msgstr "Diciembre"
+
+#: front_end/bigcalendarday.php:174 front_end/bigcalendarday_widget.php:129
+#: front_end/bigcalendarlist.php:171 front_end/bigcalendarlist_widget.php:128
+#: front_end/bigcalendarmonth.php:168 front_end/bigcalendarmonth_widget.php:128
+#: front_end/bigcalendarweek.php:173 front_end/bigcalendarweek_widget.php:130
+msgid "November"
+msgstr "noviembre"
+
+#: front_end/bigcalendarday.php:173 front_end/bigcalendarday_widget.php:128
+#: front_end/bigcalendarlist.php:170 front_end/bigcalendarlist_widget.php:127
+#: front_end/bigcalendarmonth.php:167 front_end/bigcalendarmonth_widget.php:127
+#: front_end/bigcalendarweek.php:172 front_end/bigcalendarweek_widget.php:129
+msgid "October"
+msgstr "octubre"
+
+#: front_end/bigcalendarday.php:172 front_end/bigcalendarday_widget.php:127
+#: front_end/bigcalendarlist.php:169 front_end/bigcalendarlist_widget.php:126
+#: front_end/bigcalendarmonth.php:166 front_end/bigcalendarmonth_widget.php:126
+#: front_end/bigcalendarweek.php:171 front_end/bigcalendarweek_widget.php:128
+msgid "September"
+msgstr "septiembre"
+
+#: front_end/bigcalendarday.php:171 front_end/bigcalendarday_widget.php:126
+#: front_end/bigcalendarlist.php:168 front_end/bigcalendarlist_widget.php:125
+#: front_end/bigcalendarmonth.php:165 front_end/bigcalendarmonth_widget.php:125
+#: front_end/bigcalendarweek.php:170 front_end/bigcalendarweek_widget.php:127
+msgid "August"
+msgstr "agosto"
+
+#: front_end/bigcalendarday.php:170 front_end/bigcalendarday_widget.php:125
+#: front_end/bigcalendarlist.php:167 front_end/bigcalendarlist_widget.php:124
+#: front_end/bigcalendarmonth.php:164 front_end/bigcalendarmonth_widget.php:124
+#: front_end/bigcalendarweek.php:169 front_end/bigcalendarweek_widget.php:126
+msgid "July"
+msgstr "julio"
+
+#: front_end/bigcalendarday.php:169 front_end/bigcalendarday_widget.php:124
+#: front_end/bigcalendarlist.php:166 front_end/bigcalendarlist_widget.php:123
+#: front_end/bigcalendarmonth.php:163 front_end/bigcalendarmonth_widget.php:123
+#: front_end/bigcalendarweek.php:168 front_end/bigcalendarweek_widget.php:125
+msgid "June"
+msgstr "junio"
+
+#: front_end/bigcalendarday.php:168 front_end/bigcalendarday_widget.php:123
+#: front_end/bigcalendarlist.php:165 front_end/bigcalendarlist_widget.php:122
+#: front_end/bigcalendarmonth.php:162 front_end/bigcalendarmonth_widget.php:122
+#: front_end/bigcalendarweek.php:167 front_end/bigcalendarweek_widget.php:124
+msgid "May"
+msgstr "Mayo"
+
+#: front_end/bigcalendarday.php:167 front_end/bigcalendarday_widget.php:122
+#: front_end/bigcalendarlist.php:164 front_end/bigcalendarlist_widget.php:121
+#: front_end/bigcalendarmonth.php:161 front_end/bigcalendarmonth_widget.php:121
+#: front_end/bigcalendarweek.php:166 front_end/bigcalendarweek_widget.php:123
+msgid "April"
+msgstr "abril"
+
+#: front_end/bigcalendarday.php:166 front_end/bigcalendarday_widget.php:121
+#: front_end/bigcalendarlist.php:163 front_end/bigcalendarlist_widget.php:120
+#: front_end/bigcalendarmonth.php:160 front_end/bigcalendarmonth_widget.php:120
+#: front_end/bigcalendarweek.php:165 front_end/bigcalendarweek_widget.php:122
+msgid "March"
+msgstr "marzo"
+
+#: front_end/bigcalendarday.php:165 front_end/bigcalendarday_widget.php:120
+#: front_end/bigcalendarlist.php:162 front_end/bigcalendarlist_widget.php:119
+#: front_end/bigcalendarmonth.php:159 front_end/bigcalendarmonth_widget.php:119
+#: front_end/bigcalendarweek.php:164 front_end/bigcalendarweek_widget.php:121
+msgid "February"
+msgstr "febrero"
+
+#: front_end/bigcalendarday.php:164 front_end/bigcalendarday_widget.php:119
+#: front_end/bigcalendarlist.php:161 front_end/bigcalendarlist_widget.php:118
+#: front_end/bigcalendarmonth.php:158 front_end/bigcalendarmonth_widget.php:118
+#: front_end/bigcalendarweek.php:163 front_end/bigcalendarweek_widget.php:120
+msgid "January"
+msgstr "Enero"

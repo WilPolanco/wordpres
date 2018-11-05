@@ -1,0 +1,75 @@
+<<<<<<< HEAD:.htaccess_backup
+<IfModule mod_rewrite.c>
+SetEnv MAGICK_THREAD_LIMIT 1	
+RewriteEngine On
+	RewriteBase /
+	RewriteRule ^/wp-content/hostinger-page-cache/ - [L]
+	RewriteCond %{REQUEST_METHOD} !POST
+	RewriteCond %{QUERY_STRING} !.*=.*
+	RewriteCond %{HTTP_COOKIE} !(wordpress_test_cookie|comment_author|wp\-postpass|wordpress_logged_in|wptouch_switch_toggle|wp_woocommerce_session_) [NC]
+	RewriteCond %{DOCUMENT_ROOT}/wp-content/hostinger-page-cache/$1/_index.html -f
+	RewriteRule ^(.*)$ /wp-content/hostinger-page-cache/$1/_index.html [L]
+</IfModule>
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/jpg "access plus 5 minutes"
+	ExpiresByType image/jpeg "access plus 5 minutes"
+	ExpiresByType image/gif "access plus 5 minutes"
+	ExpiresByType image/png "access plus 5 minutes"
+	ExpiresByType text/css "access plus 5 minutes"
+	ExpiresByType application/pdf "access plus 10 minutes"
+	ExpiresByType text/javascript "access plus 5 minutes"
+	ExpiresByType image/x-icon "access plus 30 minutes"
+	ExpiresDefault "access plus 3 minutes"
+</IfModule>
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+#Redirect all www traffic to the non-www version of site añadido por edgardo 17062018
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+=======
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^/wp-content/hostinger-page-cache/ - [L]
+	RewriteCond %{REQUEST_METHOD} !POST
+	RewriteCond %{QUERY_STRING} !.*=.*
+	RewriteCond %{HTTP_COOKIE} !(wordpress_test_cookie|comment_author|wp\-postpass|wordpress_logged_in|wptouch_switch_toggle|wp_woocommerce_session_) [NC]
+	RewriteCond %{DOCUMENT_ROOT}/wp-content/hostinger-page-cache/$1/_index.html -f
+	RewriteRule ^(.*)$ /wp-content/hostinger-page-cache/$1/_index.html [L]
+</IfModule>
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/jpg "access plus 5 minutes"
+	ExpiresByType image/jpeg "access plus 5 minutes"
+	ExpiresByType image/gif "access plus 5 minutes"
+	ExpiresByType image/png "access plus 5 minutes"
+	ExpiresByType text/css "access plus 5 minutes"
+	ExpiresByType application/pdf "access plus 10 minutes"
+	ExpiresByType text/javascript "access plus 5 minutes"
+	ExpiresByType image/x-icon "access plus 30 minutes"
+	ExpiresDefault "access plus 3 minutes"
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+#Redirect all www traffic to the non-www version of site añadido por edgardo 17062018
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+>>>>>>> 14d4b3ae2f90d38cd680bd22b45ed654dfce3b4d:.htaccess
+</IfModule>
