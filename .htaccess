@@ -1,0 +1,49 @@
+# WordPress SEO - XML Sitemap Rewrite Fix - for subfolder install
+	RewriteEngine On
+	RewriteBase /wordpress/
+	RewriteRule ^sitemap_index.xml$ /wordpress/index.php?sitemap=1 [L]
+	RewriteRule ^locations.kml$ /wordpress/index.php?sitemap=wpseo_local_kml [L]
+	RewriteRule ^geo_sitemap.xml$ /wordpress/index.php?sitemap=wpseo_local [L]
+	RewriteRule ^([^/]+?)-sitemap([0-9]+)?.xml$ /wordpress/index.php?sitemap=$1&sitemap_n=$2 [L]
+
+# BEGIN WordPress
+
+# END WordPress
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /wordpress/
+	RewriteRule ^/wordpress/wp-content/hostinger-page-cache/ - [L]
+	RewriteCond %{REQUEST_METHOD} !POST
+	RewriteCond %{QUERY_STRING} !.*=.*
+	RewriteCond %{HTTP_COOKIE} !(wordpress_test_cookie|comment_author|wp\-postpass|wordpress_logged_in|wptouch_switch_toggle|wp_woocommerce_session_) [NC]
+	RewriteCond %{DOCUMENT_ROOT}/wordpress/wp-content/hostinger-page-cache/$1/_index.html -f
+	RewriteRule ^(.*)$ /wordpress/wp-content/hostinger-page-cache/$1/_index.html [L]
+</IfModule>
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/jpg "access plus 5 minutes"
+	ExpiresByType image/jpeg "access plus 5 minutes"
+	ExpiresByType image/gif "access plus 5 minutes"
+	ExpiresByType image/png "access plus 5 minutes"
+	ExpiresByType text/css "access plus 5 minutes"
+	ExpiresByType application/pdf "access plus 10 minutes"
+	ExpiresByType text/javascript "access plus 5 minutes"
+	ExpiresByType image/x-icon "access plus 30 minutes"
+	ExpiresDefault "access plus 3 minutes"
+</IfModule>
+
+##
+##
+A continuacion, lo comentado va precedido por dos numerales:
+<IfModule mod_rewrite.c>
+RewriteEngine On
+##RewriteBase /wordpress/
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+##RewriteRule . /wordpress/index.php [L]
+RewriteRule . /wordpress/index.php [L]
+</IfModule>
+
+# END WordPress

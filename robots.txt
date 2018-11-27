@@ -1,0 +1,16 @@
+##Primer Bloque, impedimos que se rastree carpetas de WordPress, el feed,
+#los comentarios, las búsquedas, las etiquetas...
+User-agent: *
+Disallow: /wp-login
+Disallow: /wp-admin
+
+#Segundo Bloque
+User-Agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+
+#Sitemap
+#
+#Sitemap: http://eisi.fia.ues.edu.sv/sitemap.xml
+
+
