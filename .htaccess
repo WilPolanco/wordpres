@@ -6,6 +6,7 @@
 	RewriteRule ^geo_sitemap.xml$ /wordpress/index.php?sitemap=wpseo_local [L]
 	RewriteRule ^([^/]+?)-sitemap([0-9]+)?.xml$ /wordpress/index.php?sitemap=$1&sitemap_n=$2 [L]
 
+
 # BEGIN WordPress
 
 # END WordPress
