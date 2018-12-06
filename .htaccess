@@ -1,15 +1,15 @@
-# WordPress SEO - XML Sitemap Rewrite Fix - for subfolder install
-	RewriteEngine On
-	RewriteBase /wordpress/
-	RewriteRule ^sitemap_index.xml$ /wordpress/index.php?sitemap=1 [L]
-	RewriteRule ^locations.kml$ /wordpress/index.php?sitemap=wpseo_local_kml [L]
-	RewriteRule ^geo_sitemap.xml$ /wordpress/index.php?sitemap=wpseo_local [L]
-	RewriteRule ^([^/]+?)-sitemap([0-9]+)?.xml$ /wordpress/index.php?sitemap=$1&sitemap_n=$2 [L]
+# Start Yoast SEO - Sitemap Fix for Normal WordPress Install
+RewriteEngine On
+RewriteBase /
+RewriteRule ^sitemap_index.xml$ /index.php?sitemap=1 [L]
+RewriteRule ^locations.kml$ /index.php?sitemap=wpseo_local_kml [L]
+RewriteRule ^geo_sitemap.xml$ /index.php?sitemap=geo [L]
+RewriteRule ^([^/]+?)-sitemap([0-9]+)?.xml$ /index.php?sitemap=$1&sitemap_n=$2 [L]
+RewriteRule ^([a-z]+)?-?sitemap.xsl$ /index.php?xsl=$1 [L]
+# END Yoast SEO - Sitemap Fix for Normal WordPress Install
 
 
-# BEGIN WordPress
 
-# END WordPress
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	RewriteBase /wordpress/
@@ -46,5 +46,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 ##RewriteRule . /wordpress/index.php [L]
 RewriteRule . /wordpress/index.php [L]
 </IfModule>
+
+
+
+# BEGIN WordPress
 
 # END WordPress
