@@ -17,7 +17,6 @@
  * @return object|WP_Error On success an object of translations, WP_Error on failure.
  */
 function translations_api( $type, $args = null ) {
-return;
 	include( ABSPATH . WPINC . '/version.php' ); // include an unmodified $wp_version
 
 	if ( ! in_array( $type, array( 'plugins', 'themes', 'core' ) ) ) {
