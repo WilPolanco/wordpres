@@ -52,3 +52,4 @@ RewriteRule . /wordpress/index.php [L]
 # BEGIN WordPress
 
 # END WordPress
+

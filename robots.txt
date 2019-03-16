@@ -12,5 +12,3 @@ Allow: /*.js$
 #Sitemap
 #
 Sitemap:https://eisi.fia.ues.edu.sv/index.php?xml_sitemap=params=
-
-
